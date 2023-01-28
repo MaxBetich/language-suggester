@@ -1,0 +1,11 @@
+.box1 {
+  width: 50%;
+  border: solid black;
+  border-width: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
