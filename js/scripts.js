@@ -13,21 +13,32 @@ window.addEventListener("load", function() {
     if (question1 === "yes") {
       document.getElementById("output").innerText = "JavaScript is the language for you!";
       document.getElementById("result").removeAttribute("class");
+      document.getElementById("reset").removeAttribute("class");
     } else if (question2 === "yes") {
       document.getElementById("output").innerText = "You'll likely find Ruby to be right up your alley!";
       document.getElementById("result").removeAttribute("class");
+      document.getElementById("reset").removeAttribute("class");
     } else if (question3 === "yes") {
       document.getElementById("output").innerText = "Python is a heck of a good time for someone as cool as you!";
       document.getElementById("result").removeAttribute("class");
+      document.getElementById("reset").removeAttribute("class");
     } else if (question4 === "green") {
       document.getElementById("output").innerText = "Go is the language for programmers on the move!";
       document.getElementById("result").removeAttribute("class");
+      document.getElementById("reset").removeAttribute("class");
     } else if (question5 === "yes") {
       document.getElementById("output").innerText = "C# will let you code with perfect pitch!";
       document.getElementById("result").removeAttribute("class");
+      document.getElementById("reset").removeAttribute("class");
     } else {
       document.getElementById("output").innerText = "The only logical choice for a first language is Swift!";
       document.getElementById("result").removeAttribute("class");
+      document.getElementById("reset").removeAttribute("class");
     }
+  })
+
+  form.addEventListener("reset", function (event) {
+    document.getElementById("reset").setAttribute("class", "hidden");
+    document.getElementById("result").setAttribute("class", "hidden");
   })
 })
