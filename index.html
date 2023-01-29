@@ -12,82 +12,74 @@
     <p>The wonderful world of computer programming has a dizzying array of unique  and 
       interesting programming languages used by developers of many different kinds of content.
       For someone just getting into the field, finding the right place to get started can seem
-      overwhelming. Fortunately, this exhaustive, difinitive, and 100% accurate guide exists to 
+      overwhelming. Fortunately, this exhaustive, definitive, and 100% accurate guide exists to 
       carefully analyze a user's strengths and weaknesses through a carefully crafted survey 
       guaranteed to point you in the right direction!
     </p>
     <div class="box1">
-      <h2>Which Language is Right for You?</h2>
-      <ol>
-        <li>
-          <p>Do you like browsing the internet?</p>
-          <form id="question1">
+      <form id="question">
+        <h2>Which Language is Right for You?</h2>
+        <ol>
+          <li>
+            <p>Do you like browsing the internet?</p>            
             <label>
-              <input type="radio" name="question1" value="yes" checked>
-              yes
+            <input type="radio" name="question1" value="yes" checked>
+            yes
             </label><br>
             <label>
-              <input type="radio" name="question1" value="no">
-              no
-            </label>
-          </form>
-        </li>
-        <li>
-          <p>Is your favorite color red?</p>
-          <form id="question2">
+            <input type="radio" name="question1" value="no">
+            no
+            </label>            
+          </li>
+          <li>
+            <p>Is your favorite color red?</p>            
             <label>
-              <input type="radio" name="question2" value="yes" checked>
-              yes
+            <input type="radio" name="question2" value="yes" checked>
+            yes
             </label><br>
             <label>
-              <input type="radio" name="question2" value="no">
-              no
-            </label>
-          </form>
-        </li>
-        <li>
-          <p>Are you a fan of reptiles?</p>
-          <form id="question3">
+            <input type="radio" name="question2" value="no">
+            no
+            </label>            
+          </li>
+          <li>
+            <p>Are you a fan of reptiles?</p>            
             <label>
-              <input type="radio" name="question3" value="yes" checked>
-              yes
+            <input type="radio" name="question3" value="yes" checked>
+            yes
             </label><br>
             <label>
-              <input type="radio" name="question3" value="no">
-              no
-            </label>
-          </form>
-        </li>
-        <li>
-          <p>Do you prefer red or green lights?</p>
-          <form id="question4">
+            <input type="radio" name="question3" value="no">
+            no
+            </label>            
+          </li>
+          <li>
+            <p>Do you prefer red or green lights?</p>            
             <label>
-              <input type="radio" name="question4" value="red" checked>
-              red
+            <input type="radio" name="question4" value="red" checked>
+            red
             </label><br>
             <label>
-              <input type="radio" name="question4" value="green">
-              green
-            </label>
-          </form>
-        </li>
-        <li>
-          <p>Are you musically inclined?</p>
-          <form id="question5">
+            <input type="radio" name="question4" value="green">
+            green
+            </label>            
+          </li>
+          <li>
+            <p>Are you musically inclined?</p>            
             <label>
-              <input type="radio" name="question5" value="yes" checked>
-              yes
+            <input type="radio" name="question5" value="yes" checked>
+            yes
             </label><br>
             <label>
-              <input type="radio" name="question5" value="no">
-              no
-            </label>
-          </form>
-        </li>
-      </ol>
-      <button type="submit" class="btn">Click for Result!</button>
+            <input type="radio" name="question5" value="no">
+            no
+            </label>                        
+          </li>
+        </ol>
+        <button type="submit" id="btn">Click for Result!</button>
+      </form>
     </div>
-    <div id="result" class="box1" class="hidden">
+    <div id="result" class="hidden">
       <h3>Result</h3>
       <p id="output"></p>
       <button type="button" id="reset">Reset</button>
